@@ -68,7 +68,7 @@ export const Alert: FC<AlertProps> = ({
             onClick={onDismiss}
             type="button"
           >
-            <HiX aria-hidden className={theme.closeButton.icon} />
+             close
           </button>
         )}
       </div>
